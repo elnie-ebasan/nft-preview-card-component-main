@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.cardout {
+    /* position: relative; */
+    top: 20px;
+    background-color: #0c1729;
+    height: 710px;
+    width: 450px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 70px;
+    box-shadow: 0px 30px 5px 15px rgba(0, 0, 0, 0.125),  0px 30px 10px 50px rgba(0, 0, 0, 0.035);
+}
+
+.card {
+    /* position: absolute; */
+    background-color:hsl(216, 50%, 16%);
+    height: 630px;
+    width: 350px;
+    padding: 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.card__image img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.main__info {
+    margin-top: 20px;
+}
+
+.head {
+    font-size: 26px;
+    color: hsl(0, 0%, 100%);
+}
+
+.subhead {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    letter-spacing: 1px;
+}
+
+.sub__info1 {
+    display: inline-block;
+    margin-right: 80px;
+    color: hsl(178, 100%, 50%);
+    font-weight: boldest;
+}
+.sub__info1 img
+{
+    margin-right: 5px;
+}
+
+.sub__info2 {
+    display: inline-block;
+    margin-left: 74px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+}
+
+.sub__info2 img {
+    margin-right: 5px;
+}
+
+.last__part {
+    text-align:justify;
+}
+
+.jules__photo img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: aliceblue;
+}
+
+.text {
+    font-size: 18px;
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    overflow: hidden;   
+}
+
